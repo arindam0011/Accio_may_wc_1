@@ -1,0 +1,224 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.s1h1 {
+    font-family: "Pattaya", sans-serif;
+    font-size: 40px;
+    font-weight: 350;
+    font-style: normal;
+}
+
+body {
+    width: 100vw;
+}
+
+.ul1 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ul1>li {
+    padding-bottom: 5px;
+}
+
+.ul1>li>.fa {
+    margin: 10px;
+    width: 30px;
+}
+
+.ul1>li>.img {
+    height: auto;
+    width: 18px;
+    border-radius: 50%;
+}
+
+.maindiv {
+    width: 90vw;
+}
+
+.sldbr {
+    border-radius: 3px;
+    border-right: 1px solid rgb(216, 211, 211);
+    width: 17%;
+}
+
+.sppsec {
+    width: 50%;
+    height: auto;
+}
+
+.foot {
+    width: 33%;
+    height: 100%;
+}
+
+.ro {
+    border-radius: 50%;
+    background-image: linear-gradient(to left, rgb(252, 27, 241), red, rgb(244, 225, 24));
+    transform: rotate(-45deg);
+    padding: 5px;
+}
+
+.roimg {
+    border-radius: 50%;
+    border: 2px solid rgb(250, 248, 248);
+    transform: rotate(45deg);
+}
+
+/* .story{
+    gap:30px;
+} */
+
+.ro2 {
+    border-radius: 50%;
+    background-image: linear-gradient(to left, rgb(252, 27, 241), red, rgb(244, 225, 24));
+    transform: rotate(-45deg);
+    padding: 5px;
+}
+
+.roimg2 {
+    width: 35px;
+    border-radius: 50%;
+    border: 2px solid rgb(250, 248, 248);
+    transform: rotate(45deg);
+}
+
+.fa-check {
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 3px;
+}
+
+.poimg {
+    width: 100%;
+
+}
+
+.com {
+    transform: rotateY(180deg);
+}
+
+.snd {
+    transform: rotate(20deg);
+}
+
+.flag {
+    width: 10px;
+}
+
+.post-foot {
+    border-bottom: 2px solid rgb(198, 195, 195);
+}
+
+.tgay {
+    opacity: 0.5;
+}
+
+.sec-post {
+    margin-inline: auto;
+}
+
+.story {
+    overflow: hidden;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+::-webkit-scrollbar {
+    opacity: 0.4;
+}
+
+.small {
+    font-size: 2px;
+    opacity: 0.4;
+}
+
+#carouselExampleCaptions>.carousel-control-prev {
+    opacity: 0;
+}
+
+.carousel-control-next-icon {
+    width: 25px !important;
+    height: 25px !important;
+    background-color: rgb(159, 159, 167);
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+.carousel-indicators button {
+    height: 10px !important;
+    width: 10px !important;
+    margin-inline: 3px !important;
+    border-radius: 50%;
+    border: none;
+}
+
+.card>.imgcl>img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.card {
+    width: 200px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.X {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    opacity: 0.6;
+}
+
+.crdbtn {
+    background-color: #0095f6;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 5px 0px;
+    width: 100px;
+    font-weight: 450;
+    margin-inline: auto;
+
+}
+
+.box {
+    text-wrap: nowrap;
+    gap: 20px;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.navimg {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.navsw {
+    font-weight: 550;
+}
+
+.sgtxt {
+    font-weight: 550;
+    color: gray;
+}
+
+.navimg2 {
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+    background-color: rgb(55, 52, 52);
+}
