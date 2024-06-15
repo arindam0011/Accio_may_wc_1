@@ -66,17 +66,16 @@ body {
     background-image: linear-gradient(to left, rgb(252, 27, 241), red, rgb(244, 225, 24));
     transform: rotate(-45deg);
     padding: 5px;
+    width: 70px;
+    height: 70px;
 }
 
 .roimg {
     border-radius: 50%;
     border: 2px solid rgb(250, 248, 248);
     transform: rotate(45deg);
+    width: 100%;
 }
-
-/* .story{
-    gap:30px;
-} */
 
 .ro2 {
     border-radius: 50%;
@@ -136,7 +135,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-    opacity: 0.4;
+    opacity: 1;
 }
 
 .small {
